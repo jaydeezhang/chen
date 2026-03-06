@@ -1,0 +1,27 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+/* Custom Scrollbar - Minimalist */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+.hover-invert {
+  transition: all 0.2s ease;
+}
+.hover-invert:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
